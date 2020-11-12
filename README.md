@@ -77,7 +77,7 @@ git clone https://github.com/iwan0129/Killing-Floor-2-FOV-Changer.git
 
 ## Usage
 
-Start the program and wait for it to finish it's execution.
+Start the program. Enter 1 for WideFOV or 2 for NarrowFOV
 
 ## Roadmap
 
