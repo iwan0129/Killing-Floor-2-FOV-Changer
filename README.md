@@ -21,7 +21,7 @@
   <h3 align="center">Killing Floor 2 FOV Changer</h3>
 
   <p align="center">
-    Simple script to change Killing Floor 2's FOV type
+    Script That Changes Killing Floor 2's FOV Type
     <br />
     <a href="https://github.com/iwan0129/Killing-Floor-2-FOV-Changer"><strong>Explore the docs »</strong></a>
     <br />
@@ -53,7 +53,7 @@
 
 <!-- [![Product Name Screen Shot][product-screenshot]](https://example.com) -->
 
-Simple script that changes Killing Floor 2's FOV type
+Script That Changes Killing Floor 2's FOV Type
 
 ### Built With
 The project's Python version is 3.9 but you can build with lower version
