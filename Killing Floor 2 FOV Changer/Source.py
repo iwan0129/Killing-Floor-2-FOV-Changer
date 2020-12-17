@@ -12,17 +12,20 @@ def find_index(searchPattern, data):
         return data.index(result[0]);
     else:
         return 0;
+pass;
 
 def read_file(path):
-    file = open(kfengine_path, 'r');
-    data = file.readlines();
-    file.close();
-    return data;
+    with open(kfengine_path, 'r') as file:
+        data = file.readlines();
+        return data;
+    pass;       
+pass;
 
 def write_file(path, data):
-    file = open(path, 'w');
-    file.writelines(data);
-    file.close();
+    with open(path, 'w') as file:
+        file.writelines(data);
+    pass;
+pass;
 
 if (path.exists(kfengine_path)):
     data = read_file(kfengine_path);
@@ -36,4 +39,9 @@ if (path.exists(kfengine_path)):
     elif(fovType == 2):
         data[fovIndex] = narrow_fov;
 
+    print("Writing Changes To KFEngine.ini File...");
+
     write_file(kfengine_path, data);
+
+    print("Done. You Can Close The Program Now");
+    pass;

@@ -4,7 +4,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>b186cda5-306d-44bd-a974-794b8380bd9b</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>Killing_Floor_2_FOV_Changer.py</StartupFile>
+    <StartupFile>Source.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -21,7 +21,7 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Include="Killing_Floor_2_FOV_Changer.py" />
+    <Compile Include="Source.py" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
   <!-- Uncomment the CoreCompile target to enable the Build command in
