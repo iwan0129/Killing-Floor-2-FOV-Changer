@@ -31,7 +31,7 @@ if (path.exists(kfengine_path)):
     data = read_file(kfengine_path);
     fovIndex = find_index("AspectRatioAxisConstraint", data);
 
-    print('Enter 1 for Wide FOV\nEnter 2 for Narrow FOV');
+    print('Enter 1 for Wide FOV\nEnter 2 for Narrow FOV\n');
     fovType = int(input());
 
     if (fovType == 1):
