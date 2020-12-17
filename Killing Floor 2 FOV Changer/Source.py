@@ -39,9 +39,11 @@ if (path.exists(kfengine_path)):
     elif(fovType == 2):
         data[fovIndex] = narrow_fov;
 
-    print("Writing Changes To KFEngine.ini File...");
+    print("\nWriting Changes To KFEngine.ini File...\n");
+
+    print("\nWriting Changes To KFEngine.ini File...\n");
 
     write_file(kfengine_path, data);
 
-    print("Done. You Can Close The Program Now");
+    print("\nDone. You Can Close The Program Now\n");
     pass;
