@@ -41,8 +41,6 @@ if (path.exists(kfengine_path)):
 
     print("\nWriting Changes To KFEngine.ini File...\n");
 
-    print("\nWriting Changes To KFEngine.ini File...\n");
-
     write_file(kfengine_path, data);
 
     print("\nDone. You Can Close The Program Now\n");
