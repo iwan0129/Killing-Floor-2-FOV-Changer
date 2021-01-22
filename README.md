@@ -56,18 +56,13 @@
 Script That Changes Killing Floor 2's FOV Type
 
 ### Built With
-The project's Python version is 3.9 but you can build with lower version
+Python 3.7.8
 
 ## Getting Started
 
-<!-- ### Prerequisites
+### Prerequisites
+Python 3.7.8 or Higher
 
-This is an example of how to list things you need to use the software and how to install them.
-* npm
-```sh
-npm install npm@latest -g
-```
--->
 ### Installation
 
 Clone the repo
