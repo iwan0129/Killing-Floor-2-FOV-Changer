@@ -61,7 +61,7 @@ Python 3.7.8
 ## Getting Started
 
 ### Prerequisites
-Python 3.7.8 or Higher
+* Python 3.7.8 or Higher
 
 ### Installation
 
